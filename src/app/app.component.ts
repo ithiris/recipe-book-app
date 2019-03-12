@@ -1,5 +1,5 @@
-import { Component,OnInit } from '@angular/core';
-import * as firebase from 'firebase'
+import { Component, OnInit } from '@angular/core';
+import * as firebase from 'firebase';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,8 @@ import * as firebase from 'firebase'
 })
 export class AppComponent implements OnInit {
   loadedFeature = 'recipe';
+
+  
 
   ngOnInit (){
     firebase.initializeApp({
